@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-expressions">
+    <title>Expressions</title>
+    
+<!-- This is a PreTeXt document fragment. -->
+<!-- It represents Section 1.1, designed to be included in Chapter 1: Expressions. -->
+
+<section xml:id="section-numerical-expressions">
+    <title>Numerical Expressions</title>
+    <introduction>
+        <!-- Optional: Add an introduction to the section here. -->
+        <p>
+            This section covers the fundamentals of writing, evaluating, and applying numerical expressions. We will review how to translate verbal phrases into mathematical expressions and the importance of the order of operations.
+        </p>
+    </introduction>
+
+    <!-- Subsection for "Learn Writing Numerical Expressions" -->
+    <subsection xml:id="subsection-writing-numerical-expressions">
+        <title><em>Learn</em>: Writing Numerical Expressions</title>
+        
+        <example xml:id="example-translate-verbal-expression">
+            <title>Translate a Verbal Expression</title>
+            <statement>
+                <p>
+                The verbal expression "twelve divided by four plus two" can be translated into the numerical expression:
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>12 \div 4 + 2</m>.
+                </p>
+            </answer>
+        </example> 
+
+        <exercise xml:id="exercise-translate-verbal-expression">
+            <title>Translate a Verbal Expression</title>
+            <statement>
+                <p>
+                    Translate the verbal expression "eight minus three times two" into a numerical expression.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    The numerical expression is <m>8 - 3 \cdot 2</m>.
+                </p>
+            </answer>
+        </exercise>
+
+        <example xml:id="example-translate-verbal-expression-with-grouping">
+            <title>Translate a Verbal Expression with Grouping Symbols</title>
+            <p>
+                <!-- Your content for this example goes here. -->
+                Consider the verbal expression "two times the difference of 6 and 4". This can be written as <m>2 \cdot (6 - 4)</m>.
+            </p>
+            
+        </example>
+
+        <exercise xml:id="exercise-translate-verbal-expression-with-grouping">
+            <title>Translate a Verbal Expression with Grouping Symbols</title>
+            <statement>
+                <p>
+                    Translate the verbal expression "twelve divided by the sum of four and two" into a numerical expression.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    The numerical expression is <m>12 \div (4 + 2)</m>.
+                </p>
+            </answer>
+
+        </exercise>
+
+        <example xml:id="example-write-numerical-expression">
+            <title>Write a Numerical Expression</title>
+            <p>
+                <!-- Your content for this example goes here. -->
+                The verbal expression "the difference of nine and five times the sum of three and two" can be written as <m>(9 - 5) \cdot (3 + 2)</m>.
+            </p>
+
+        </example>
+
+        <exercise xml:id="exercise-write-numerical-expression">
+            <title>Write a Numerical Expression</title>
+            <statement>
+                <p>
+                    Write the numerical expression for the verbal phrase "the sum of eight and seven divided by the difference of four and one".
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    The numerical expression is <m>(8 + 7) \div (4 - 1)</m>.
+                </p>
+            </answer>
+        </exercise>
+
+    </subsection>
+
+    <!-- Subsection for "Learn Evaluating Numerical Expressions" -->
+    <subsection xml:id="subsection-evaluating-numerical-expressions">
+        <title><em>Learn</em>: Evaluating Numerical Expressions</title>
+        
+        <p>
+            <!-- Your content for this subsection goes here. -->
+            In this subsection, we will learn how to evaluate numerical expressions using the order of operations.
+        </p>
+        
+        <example xml:id="example-order-of-operations">
+            <title>Order of Operations</title>
+
+            <p>
+                To evaluate an expression, we must follow the correct <term>order of operations</term>. These rules can be remembered by their acronym PEMDAS:
+                <ol>
+                    <li>
+                        <p>
+                            Parentheses
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Exponents
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Multiplication and Division (from left to right)
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Addition and Subtraction (from left to right)
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                Note: Multiplication does not always come before Division, and Addition does not always come before Subtraction. They are performed from left to right as they appear in the expression.
+            </p>
+                           
+            <p>
+                <!-- Your content for this example goes here. -->
+                For example, when evaluating the expression <me>5 + 3^2 \cdot (4-1)</me> we follow the order of operations as shown below: 
+                <md>
+                    <mrow> \amp 5 + 3^2 \cdot (4-1) =</mrow>
+                    <mrow> \amp 5 + 3^2 \cdot 3 =</mrow>
+                    <mrow> \amp 5 + 9 \cdot 3 =</mrow>
+                    <mrow> \amp 5 + 27 =</mrow>
+                    <mrow> \amp 32</mrow>
+                </md>  
+                First, we evaluate inside the parentheses. Next, we compute the exponent. Then, we multiply. Finally, we add and get the expression's value of <m>32</m>.
+            </p>
+            
+        </example>
+
+        <exercise xml:id="exercise-order-of-operations">
+            <title>Order of Operations Exercise</title>
+            <statement>
+                <p>
+                    Evaluate the expression <m>7 + (4-2)^2</m> using the order of operations.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    The result is <m>11</m>.
+                </p>
+            </answer>
+        </exercise>
+
+        <example xml:id="example-evaluate-numerical-expression">
+            <title>Evaluate a Numerical Expression</title>
+            <p>
+                <!-- Your content for this example goes here. -->
+                To evaluate the expression <m>(3 + 5) \cdot 2</m>, we first calculate the sum inside the parentheses, which gives us <m>8</m>, and then multiply by <m>2</m> to get <m>16</m>.
+            </p>
+        </example>
+        
+        <example xml:id="exanmple-write-and-evaluate-numerical-expression">
+            <title>Write and Evaluate a Numerical Expression</title>
+            <p>
+                <!-- Your content for this example goes here. -->
+                For the verbal expression "the difference of 10 and 4 multiplied by 2", we write it as <m>(10 - 4) \cdot 2</m> and evaluate it to get <m>12</m>.
+            </p>
+        </example>
+        
+       <example xml:id="example-evaluate-numerical-expression-with-grouping">
+            <title>Evaluate a Numerical Expression with Grouping Symbols</title>
+            <p>
+                <!-- Your content for this example goes here. -->
+                For the expression <m>(2 + 3) \cdot (4 - 1)</m>, we first evaluate the expressions in parentheses to get <m>5</m> and <m>3</m>, respectively, and then multiply them to get <m>15</m>.
+            </p>
+        </example>
+        
+    </subsection>
+
+    <!-- Subsection for "Learn Plan for Problem Solving" -->
+    <subsection xml:id="subsection-plan-for-problem-solving">
+        <title><em>Learn</em>: Plan for Problem Solving</title>
+        
+        <example xml:id="example-write-and-evaluate-expressions">
+            <title>Write and Evaluate Expressions</title>
+            <p>
+                <!-- Your content for this example goes here. -->
+                When faced with a problem, first write down the expression that represents the problem, then evaluate it step by step.
+            </p>            
+        </example>
+
+    </subsection>
+    
+    <!-- Subsection for "Exit Ticket" -->
+    <subsection xml:id="subsection-exit-ticket">
+        <title>Exit Ticket</title>
+        <p>
+            <!-- Your content for the exit ticket goes here. You might use <exercise> or <project> tags. -->
+        </p>
+    </subsection>
+    
+    <!-- Subsection for "Practice and HW" -->
+    <subsection xml:id="subsection-practice-and-hw">
+        <title>Practice and HW</title>
+        <p>
+            <!-- Your content for practice and homework goes here. The <exercises> tag is common here. -->
+        </p>
+    </subsection>
+
+</section>
+
+</chapter>
