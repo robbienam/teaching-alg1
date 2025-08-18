@@ -1,0 +1,135 @@
+INFO    : Building target web
+INFO    : PreTeXt source passed schema validation.
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Generating any needed assets.
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/output/web.
+WARNING : Node.js must be installed to build CSS files.  Please install node.js and npm.
+ Will try to use prebuilt CSS files instead.
+WARNING : Cannot find npm.  Will try to use prebuilt CSS files instead.
+WARNING : Unable to install npm packages to build css files.  Non-default CSS themes require node.js and npm to be installed.  See https://pretextbook.org/doc/guide/html/node-and-npm.html
+WARNING : 
+INFO    : discovering source file's directory name: /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source
+INFO    : verifying and expanding input directory: /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/generated-assets
+INFO    : verifying and expanding input directory: /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/../assets
+INFO    : input directory expanded to absolute path: /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/assets
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 7.9.8
+INFO    : Downloading Runestone Services, version 7.9.8
+INFO    : Extracting Runestone Services from archive file
+INFO    : Node.js not available. Relying on prebuilt default-modern.
+INFO    : Using prebuilt CSS theme: default-modern with options: {'options': {'primary-color': '#195684', 'secondary-color': '#932c1c'}, 'contrast-checks': {'primary-color': '#fff', 'secondary-color': '#fff', 'primary-color-dark': '#23241f'}}
+INFO    : converting /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx to HTML in /var/folders/c3/hzk1j_p54hg00s5_2yppjhp40000gq/T/ptx-7ezp9pw7
+INFO    : XSL conversion of /Users/mcnerneyjrr/Documents/PreTeXt/teaching-alg1/source/main.ptx by /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/pretext-html.xsl
+INFO    : messages from the log for XSL processing:
+ERROR   : * PTX:ERROR: the @xml:id value "example-evaluate-numerical-expression" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "example-evaluate-numerical-expression" (xml:id), "Evaluate a Numerical Expression" (title)
+INFO    : *              located within: "example-evaluate-numerical-expression" (xml:id), "Evaluate a Numerical Expression" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "example-evaluate-numerical-expression-with-grouping" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "example-evaluate-numerical-expression-with-grouping" (xml:id), "Evaluate a Numerical Expression with Grouping Symbols" (title)
+INFO    : *              located within: "example-evaluate-numerical-expression-with-grouping" (xml:id), "Evaluate a Numerical Expression with Grouping Symbols" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "example-order-of-operations" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "example-order-of-operations" (xml:id), "Order of Operations" (title)
+INFO    : *              located within: "example-order-of-operations" (xml:id), "Order of Operations" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "example-translate-verbal-expression" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "example-translate-verbal-expression" (xml:id), "Translate a Verbal Expression" (title)
+INFO    : *              located within: "example-translate-verbal-expression" (xml:id), "Translate a Verbal Expression" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "example-translate-verbal-expression-with-grouping" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "example-translate-verbal-expression-with-grouping" (xml:id), "Translate a Verbal Expression with Grouping Symbols" (title)
+INFO    : *              located within: "example-translate-verbal-expression-with-grouping" (xml:id), "Translate a Verbal Expression with Grouping Symbols" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "example-write-and-evaluate-expressions" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "example-write-and-evaluate-expressions" (xml:id), "Write and Evaluate Expressions" (title)
+INFO    : *              located within: "example-write-and-evaluate-expressions" (xml:id), "Write and Evaluate Expressions" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "example-write-numerical-expression" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "example-write-numerical-expression" (xml:id), "Write a Numerical Expression" (title)
+INFO    : *              located within: "example-write-numerical-expression" (xml:id), "Write a Numerical Expression" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "exanmple-write-and-evaluate-numerical-expression" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "exanmple-write-and-evaluate-numerical-expression" (xml:id), "Write and Evaluate a Numerical Expression" (title)
+INFO    : *              located within: "exanmple-write-and-evaluate-numerical-expression" (xml:id), "Write and Evaluate a Numerical Expression" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "exercise-order-of-operations" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "exercise-order-of-operations" (xml:id), "Order of Operations Exercise" (title)
+INFO    : *              located within: "exercise-order-of-operations" (xml:id), "Order of Operations Exercise" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "exercise-translate-verbal-expression" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "exercise-translate-verbal-expression" (xml:id), "Translate a Verbal Expression" (title)
+INFO    : *              located within: "exercise-translate-verbal-expression" (xml:id), "Translate a Verbal Expression" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "exercise-translate-verbal-expression-with-grouping" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "exercise-translate-verbal-expression-with-grouping" (xml:id), "Translate a Verbal Expression with Grouping Symbols" (title)
+INFO    : *              located within: "exercise-translate-verbal-expression-with-grouping" (xml:id), "Translate a Verbal Expression with Grouping Symbols" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "exercise-write-numerical-expression" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "exercise-write-numerical-expression" (xml:id), "Write a Numerical Expression" (title)
+INFO    : *              located within: "exercise-write-numerical-expression" (xml:id), "Write a Numerical Expression" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "subsection-evaluating-numerical-expressions" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "subsection-evaluating-numerical-expressions" (xml:id), "Learn: Evaluating Numerical Expressions" (title)
+INFO    : *              located within: "subsection-evaluating-numerical-expressions" (xml:id), "Learn: Evaluating Numerical Expressions" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "subsection-exit-ticket" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "subsection-exit-ticket" (xml:id), "Exit Ticket" (title)
+INFO    : *              located within: "subsection-exit-ticket" (xml:id), "Exit Ticket" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "subsection-practice-and-hw" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "subsection-practice-and-hw" (xml:id), "Practice and HW" (title)
+INFO    : *              located within: "subsection-practice-and-hw" (xml:id), "Practice and HW" (title)
+ERROR   : * PTX:ERROR: the @xml:id value "subsection-writing-numerical-expressions" should be unique, but is authored multiple times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "subsection-writing-numerical-expressions" (xml:id), "Learn: Writing Numerical Expressions" (title)
+INFO    : *              located within: "subsection-writing-numerical-expressions" (xml:id), "Learn: Writing Numerical Expressions" (title)
+INFO    : * PTX:INFO:   checking ONLY the last TWO YEARS of element deprecations.
+Rerun with the string parameter "author.deprecations.all" set to "yes" to check your source against all deprecations.
+INFO    : successful application of /Users/mcnerneyjrr/.ptx/2.20.0/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /var/folders/c3/hzk1j_p54hg00s5_2yppjhp40000gq/T/ptx-7ezp9pw7
+INFO    : Removing temporary directory /var/folders/c3/hzk1j_p54hg00s5_2yppjhp40000gq/T/ptx-ar051odn
+INFO    : 
+Success! Run `pretext view web` to see the results.
+
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------
