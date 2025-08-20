@@ -3,25 +3,77 @@
 <section xml:id="sec-numerical-expressions_2" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Numerical Expressions</title>
     <objectives>
+    
     <ul>
         <li>
-            <p>
-                Write numerical expressions from verbal expressions.
-            </p>
+            <p>Learning Objectives</p>
+           <p><ul>
+            <li>
+                <p>
+                    Write numerical expressions from verbal expressions.        
+                </p>
+            </li>
+            <li>
+                <p>
+                    Evaluate numerical expressions using the order of operations.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Apply numerical expressions to solve real-world problems.
+                </p>
+            </li>
+        </ul></p>
         </li>
         <li>
+            <p>Language Objectives</p>
             <p>
-                Evaluate numerical expressions using the order of operations.
-            </p>
-        </li>
-        <li>
-            <p>
-                Apply numerical expressions to solve real-world problems.
-            </p>
-        </li>
+            <ul>
+                <li>
+                    <p>
+                        Use mathematical language to describe numerical expressions and their evaluation.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Explain the order of operations and its importance in evaluating numerical expressions.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Communicate the process of writing and evaluating numerical expressions in real-world contexts.
+                    </p>
+                </li>
+                </ul>
+                </p>
+            </li>    
     </ul>
+
+           
+       
 </objectives>
+ 
 <introduction>
+    <note> 
+    <p>
+        <em>Background</em> you need for this lesson:
+        <ul>
+    
+            <li>
+                <p>
+                    Adding, subtracting, multiplying, and dividing fractions. <url href="https://docs.google.com/document/d/1FVcJvFZHcEI-W229BFoQQqR3iaUb-t5eBU36P2_KubM/edit?usp=sharing">Review Fraction Arithmetic</url>
+                </p>
+            </li>
+            <li>
+                <p>    
+                    Simplifying a fraction to lowest terms: <url href="https://colab.research.google.com/drive/1jZ0KBen9s-Nog6Mpgdylu689lv42rAgp">Practice Simplifying Fractions (Colab)</url>
+                </p>
+            </li>
+            </ul>
+        </p>
+        
+    </note>
+
         <p>
             This section covers the fundamentals of writing, evaluating, and applying numerical expressions. 
         </p>
@@ -53,6 +105,7 @@
     </example>
     <p>In this section, we will learn how to write numerical expressions from their verbal descriptions, evaluate them using the order of operations, and apply them to solve real-world problems.
     </p>
+
     </introduction>
 
     <!-- Subsection for "Learn Writing Numerical Expressions" -->
@@ -394,6 +447,32 @@
                 </ol>
             </p>
            </activity>
+   
+           <glossary>
+                <title>Key Terms</title>
+                <gi>
+                    <title>Numerical Expression</title>
+                    <p>A mathematical expression that contains only numbers and arithmetic operations (no variables).
+                
+                    </p>
+                </gi>
+                <gi>
+                    <title>Order of Operations</title>
+                    <p>The rules that define the correct order to perform the arithmetic operations of a numerical expression.
+                    </p>
+                </gi>
+                <gi>
+                    <title>Evaluate</title>
+                    <p>To calculate the number value of a numerical expression by performing its operations in the correct order.
+                    </p>
+                </gi>
+                <gi>
+                    <title>Grouping Symbols</title>
+                    <p>Symbols such as parentheses <m>(...)</m>, brackets <m>[...]</m>, and braces <m>\{...\}</m> that indicate which operations should be performed first in a numerical expression.
+                    </p>
+                </gi>   
+            
+            </glossary>
     </subsection>
     
     <!-- Subsection for "Practice and HW" -->
