@@ -271,7 +271,8 @@ eBookConfig.enable_chatcodes =  false;
 &amp; 5 \cdot 3 - 2\\
 &amp; 10 + 7 \cdot 2\\
 &amp; (8-3)^2 + 6 \div 3\\
-&amp; 2 \cdot 3 + 4 \cdot 5 - 6 \div 2
+&amp; 2 \cdot 3 + 4 \cdot 5 - 6 \div 2\\
+&amp; 2 \cdot 3 + 4 \cdot (5 - 6) \div 2
 \end{align*}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#example-numerical-expressions-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -449,7 +450,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para">The <dfn class="terminology">order of operations</dfn> gives the proper order to evaluate any numerical expression:</div>
 <ol class="decimal" id="def-order-of-operations-1-1-2">
 <li id="def-order-of-operations-1-1-2-1">
-<div class="para" id="p-derived-def-order-of-operations-1-1-2-1">First, evaluate inside parentheses (...) and other grouping symbols.</div>
+<div class="para" id="p-derived-def-order-of-operations-1-1-2-1">First, evaluate inside parentheses (...) and other grouping symbols. For nested grouping symbols, begin with the <em class="emphasis">innermost</em> groupings and work outwards.</div>
 <div class="autopermalink" data-description="Item 1"><a href="#def-order-of-operations-1-1-2-1" title="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
 <li id="def-order-of-operations-1-1-2-2">
@@ -469,46 +470,19 @@ eBookConfig.enable_chatcodes =  false;
 <div class="autopermalink" data-description="Paragraph"><a href="#def-order-of-operations-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> <div class="para" id="def-order-of-operations-1-2">The above order of operations can be remembered using the acronym <em class="emphasis">PEMDAS</em>, which stands for Parentheses, Exponents, Multiplication/Division, Addition/Subtraction.<div class="autopermalink" data-description="Paragraph"><a href="#def-order-of-operations-1-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Definition 1.1.6"><a href="#def-order-of-operations" title="Copy heading and permalink for Definition 1.1.6">🔗</a></div></article><details id="example-evaluate-numerical-expressions" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.7</span><span class="period">.</span><span class="space"> </span><span class="title">Evaluate numerical expressions using the order of operations.</span>
-</h4></summary><article class="example example-like knowl__content"><div class="para logical" id="example-evaluate-numerical-expressions-2-1">
-<div class="para">Use the order of operations to evaluate the numerical expressions from <a href="sec-numerical-expressions_2.html#example-numerical-expressions" class="xref" data-knowl="./knowl/xref/example-numerical-expressions.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 1.1.3">Example 1.1.3</a>
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-numerical-expressions.html" id="example-evaluate-numerical-expressions-2-1-2">
-\begin{align*}
-&amp; 5 /cdot 3 - 2 = \_\_\_\\
-&amp; 10 + 7 \cdot 2 = \_\_\_\\
-&amp; (8-3)^2 + 6 \div 3 = \_\_\_\\
-&amp; 2 \cdot 3 + 4 \cdot 5 - 6 \div 2 = \_\_\_
-\end{align*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-evaluate-numerical-expressions-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="solutions"><details id="example-evaluate-numerical-expressions-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
-<div class="para logical" id="example-evaluate-numerical-expressions-3-1">
-<div class="displaymath process-math" id="example-evaluate-numerical-expressions-3-1-1">
-\begin{align*}
-&amp; 5 \cdot 3 - 2 = 13\\
-&amp; 10 + 7 \cdot 2 = 24\\
-&amp; (8-3)^2 + 6 \div 3 = 27 \\
-&amp; 2 \cdot 3 + 4 \cdot 5 - 6 \div 2 = 23
-\end{align*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#example-evaluate-numerical-expressions-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Answer 1.1.7.1"><a href="#example-evaluate-numerical-expressions-3" title="Copy heading and permalink for Answer 1.1.7.1">🔗</a></div>
-</div></details></div>
-<div class="autopermalink" data-description="Example 1.1.7: Evaluate numerical expressions using the order of operations"><a href="#example-evaluate-numerical-expressions" title="Copy heading and permalink for Example 1.1.7: Evaluate numerical expressions using the order of operations">🔗</a></div></article></details><div class="para logical" id="subsection-evaluating-numerical-expressions-8">
+<div class="autopermalink" data-description="Definition 1.1.6"><a href="#def-order-of-operations" title="Copy heading and permalink for Definition 1.1.6">🔗</a></div></article><details id="example-evaluate-numerical-expression" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.7</span><span class="period">.</span><span class="space"> </span><span class="title">Evaluate a numerical expression using the Order of Operations.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para logical" id="example-evaluate-numerical-expression-2-1">
 <div class="para"> For example, when evaluating the expression</div>
 <div class="displaymath process-math">
 \begin{equation*}
-5 + 3^2 \cdot (4-1)
+5 + 3^2 (4-1)
 \end{equation*}
 </div>
 <div class="para">we follow the order of operations as shown below:</div>
-<div class="displaymath process-math" id="subsection-evaluating-numerical-expressions-8-2">
+<div class="displaymath process-math" id="example-evaluate-numerical-expression-2-1-2">
 \begin{align*}
-\amp 5 + 3^2 \cdot (4-1) =\\
+\amp 5 + 3^2 (4-1) =\\
 \amp 5 + 3^2 \cdot 3 =\\
 \amp 5 + 9 \cdot 3 =\\
 \amp 5 + 27 =\\
@@ -517,63 +491,71 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="para">First, we evaluate inside the parentheses. Next, we compute the exponent. Then, we multiply. Finally, we add and get the expression’s value of <span class="process-math">\(32\text{.}\)</span>
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsection-evaluating-numerical-expressions-8" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#example-evaluate-numerical-expression-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="example-evaluate-numerical-expression" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<div class="autopermalink" data-description="Example 1.1.7: Evaluate a numerical expression using the Order of Operations"><a href="#example-evaluate-numerical-expression" title="Copy heading and permalink for Example 1.1.7: Evaluate a numerical expression using the Order of Operations">🔗</a></div></article></details><details id="example-evaluate-numerical-expression-with-fraction" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.8</span><span class="period">.</span><span class="space"> </span><span class="title">Evaluate a Numerical Expression.</span>
-</h4></summary><article class="example example-like knowl__content"><div class="para" id="example-evaluate-numerical-expression-2-1">Evaluate the expression <span class="process-math">\(2^2 - 10 \div 5\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-evaluate-numerical-expression-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="example-evaluate-numerical-expression-with-fraction-2-1">Evaluate the expression <span class="process-math">\(2^2 - \frac{10}{5}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-evaluate-numerical-expression-with-fraction-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="solutions"><details id="example-evaluate-numerical-expression-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
-<div class="para" id="example-evaluate-numerical-expression-3-1">We first evaluate the exponent <span class="process-math">\(2^2 = 4\text{,}\)</span> then perform the division <span class="process-math">\(10 \div 5 = 2\text{,}\)</span> and finally subtract these two results to get <span class="process-math">\(4 - 2 = 2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-evaluate-numerical-expression-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="solutions"><details id="example-evaluate-numerical-expression-with-fraction-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="example-evaluate-numerical-expression-with-fraction-3-1">
+<span class="process-math">\(2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-evaluate-numerical-expression-with-fraction-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Answer 1.1.8.1"><a href="#example-evaluate-numerical-expression-3" title="Copy heading and permalink for Answer 1.1.8.1">🔗</a></div>
+<div class="autopermalink" data-description="Answer 1.1.8.1"><a href="#example-evaluate-numerical-expression-with-fraction-3" title="Copy heading and permalink for Answer 1.1.8.1">🔗</a></div>
 </div></details></div>
-<div class="autopermalink" data-description="Example 1.1.8: Evaluate a Numerical Expression"><a href="#example-evaluate-numerical-expression" title="Copy heading and permalink for Example 1.1.8: Evaluate a Numerical Expression">🔗</a></div></article></details><details id="example-evaluate-numerical-expression-with-grouping" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<div class="autopermalink" data-description="Example 1.1.8: Evaluate a Numerical Expression"><a href="#example-evaluate-numerical-expression-with-fraction" title="Copy heading and permalink for Example 1.1.8: Evaluate a Numerical Expression">🔗</a></div></article></details><details id="example-evaluate-numerical-expression-with-grouping" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.9</span><span class="period">.</span><span class="space"> </span><span class="title">Evaluate a Numerical Expression with Grouping Symbols.</span>
-</h4></summary><article class="example example-like knowl__content"><div class="para" id="example-evaluate-numerical-expression-with-grouping-2-1"> Evaluate the expression <span class="process-math">\((2 + 3) \cdot (4 - 1)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-evaluate-numerical-expression-with-grouping-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="example-evaluate-numerical-expression-with-grouping-2-1"> Evaluate the expression <span class="process-math">\(\frac{3 + 3^3}{4 - 1}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-evaluate-numerical-expression-with-grouping-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions"><details id="example-evaluate-numerical-expression-with-grouping-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
-<div class="para" id="example-evaluate-numerical-expression-with-grouping-3-1">We first evaluate the two expressions in parentheses to get <span class="process-math">\(5\)</span> and <span class="process-math">\(3\text{,}\)</span> respectively, and then multiply these results to get <span class="process-math">\(15\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-evaluate-numerical-expression-with-grouping-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="example-evaluate-numerical-expression-with-grouping-3-1">
+<span class="process-math">\(10\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-evaluate-numerical-expression-with-grouping-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1.1.9.1"><a href="#example-evaluate-numerical-expression-with-grouping-3" title="Copy heading and permalink for Answer 1.1.9.1">🔗</a></div>
 </div></details></div>
-<div class="autopermalink" data-description="Example 1.1.9: Evaluate a Numerical Expression with Grouping Symbols"><a href="#example-evaluate-numerical-expression-with-grouping" title="Copy heading and permalink for Example 1.1.9: Evaluate a Numerical Expression with Grouping Symbols">🔗</a></div></article></details><details id="exanmple-write-and-evaluate-numerical-expression" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.10</span><span class="period">.</span><span class="space"> </span><span class="title">Write and Evaluate a Numerical Expression.</span>
-</h4></summary><article class="example example-like knowl__content"><div class="para" id="exanmple-write-and-evaluate-numerical-expression-2-1">Translate and evaluate the verbal expression "the difference of 10 and 4 multiplied by 2."<div class="autopermalink" data-description="Paragraph"><a href="#exanmple-write-and-evaluate-numerical-expression-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Example 1.1.9: Evaluate a Numerical Expression with Grouping Symbols"><a href="#example-evaluate-numerical-expression-with-grouping" title="Copy heading and permalink for Example 1.1.9: Evaluate a Numerical Expression with Grouping Symbols">🔗</a></div></article></details><details id="example-evaluate-numerical-expression-with-nested-grouping-symbols" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.10</span><span class="period">.</span><span class="space"> </span><span class="title">Evaluate a Numerical Expression with Nested Grouping Symbols.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="example-evaluate-numerical-expression-with-nested-grouping-symbols-2-1"> Evaluate the expression <span class="process-math">\([(-10 + 9)^2 + 7] \cdot 3 - 5\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-evaluate-numerical-expression-with-nested-grouping-symbols-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="solutions"><details id="exanmple-write-and-evaluate-numerical-expression-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
-<div class="para" id="exanmple-write-and-evaluate-numerical-expression-3-1">We write this expression as <span class="process-math">\((10 - 4) \cdot 2\)</span> and evaluate it to get <span class="process-math">\(6 \cdot 2 = 12\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exanmple-write-and-evaluate-numerical-expression-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="solutions"><details id="example-evaluate-numerical-expression-with-nested-grouping-symbols-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="example-evaluate-numerical-expression-with-nested-grouping-symbols-3-1">
+<span class="process-math">\(19\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-evaluate-numerical-expression-with-nested-grouping-symbols-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Answer 1.1.10.1"><a href="#exanmple-write-and-evaluate-numerical-expression-3" title="Copy heading and permalink for Answer 1.1.10.1">🔗</a></div>
+<div class="autopermalink" data-description="Answer 1.1.10.1"><a href="#example-evaluate-numerical-expression-with-nested-grouping-symbols-3" title="Copy heading and permalink for Answer 1.1.10.1">🔗</a></div>
 </div></details></div>
-<div class="autopermalink" data-description="Example 1.1.10: Write and Evaluate a Numerical Expression"><a href="#exanmple-write-and-evaluate-numerical-expression" title="Copy heading and permalink for Example 1.1.10: Write and Evaluate a Numerical Expression">🔗</a></div></article></details><details id="exercise-evaluate-numerical-expressions" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.11</span><span class="period">.</span><span class="space"> </span><span class="title">Evaluate Numerical Expressions.</span>
+<div class="autopermalink" data-description="Example 1.1.10: Evaluate a Numerical Expression with Nested Grouping Symbols"><a href="#example-evaluate-numerical-expression-with-nested-grouping-symbols" title="Copy heading and permalink for Example 1.1.10: Evaluate a Numerical Expression with Nested Grouping Symbols">🔗</a></div></article></details><details id="exercise-evaluate-numerical-expressions" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.11</span><span class="period">.</span><span class="space"> </span><span class="title">Evaluate numerical expressions using the order of operations.</span>
 </h4></summary><article class="exercise exercise-like knowl__content"><div class="para logical" id="exercise-evaluate-numerical-expressions-2-1">
-<div class="para">Evaluate the following numerical expressions using the order of operations:</div>
+<div class="para">Use the order of operations to evaluate the following numerical expressions:</div>
 <div class="displaymath process-math" id="exercise-evaluate-numerical-expressions-2-1-1">
 \begin{align*}
-&amp; 8 + 2^3 - 4 \div 2\\
-&amp; (6 + 2) \cdot 3 - 5\\
-&amp; 12 \div (3 + 1) + 2^2
+&amp; 5 \cdot 3 - 2 = \_\_\_\\
+&amp; 10 + 7 \cdot 2 = \_\_\_\\
+&amp; (8-3)^2 + 6 \div 3 = \_\_\_\\
+&amp; 2 \cdot 3 + 4 \cdot 5 - 6 \div 2 = \_\_\_\\
+&amp; 2 \cdot 3 + 4 \cdot (5 - 6) \div 2 = \_\_\_\\
+&amp; \frac{2(4-1)^2}{\frac{1}{2}(5+1)^2}
 \end{align*}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#exercise-evaluate-numerical-expressions-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions"><details id="exercise-evaluate-numerical-expressions-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
 <div class="para logical" id="exercise-evaluate-numerical-expressions-3-1">
-<div class="para">The results are:</div>
 <div class="displaymath process-math" id="exercise-evaluate-numerical-expressions-3-1-1">
 \begin{align*}
-&amp; 8 + 8 - 2 = 14\\
-&amp; 8 \cdot 3 - 5 = 19\\
-&amp; 12 \div 4 + 4 = 7
+&amp; 5 \cdot 3 - 2 = 13\\
+&amp; 10 + 7 \cdot 2 = 24\\
+&amp; (8-3)^2 + 6 \div 3 = 27 \\
+&amp; 2 \cdot 3 + 4 \cdot 5 - 6 \div 2 = 23\\
+&amp; 2 \cdot 3 + 4 \cdot (5 - 6) \div 2 = 4\\
+&amp; \frac{2(4-1)^2}{\frac{1}{2}(5+1)^2} = 1
 \end{align*}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#exercise-evaluate-numerical-expressions-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Answer 1.1.11.1"><a href="#exercise-evaluate-numerical-expressions-3" title="Copy heading and permalink for Answer 1.1.11.1">🔗</a></div>
 </div></details></div>
-<div class="autopermalink" data-description="Checkpoint 1.1.11: Evaluate Numerical Expressions"><a href="#exercise-evaluate-numerical-expressions" title="Copy heading and permalink for Checkpoint 1.1.11: Evaluate Numerical Expressions">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 1.1.2: Learn: Evaluating Numerical Expressions"><a href="#subsection-evaluating-numerical-expressions" title="Copy heading and permalink for Subsection 1.1.2: Learn: Evaluating Numerical Expressions">🔗</a></div></section><section class="subsection" id="subsection-plan-for-problem-solving"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Checkpoint 1.1.11: Evaluate numerical expressions using the order of operations"><a href="#exercise-evaluate-numerical-expressions" title="Copy heading and permalink for Checkpoint 1.1.11: Evaluate numerical expressions using the order of operations">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 1.1.2: Learn: Evaluating Numerical Expressions"><a href="#subsection-evaluating-numerical-expressions" title="Copy heading and permalink for Subsection 1.1.2: Learn: Evaluating Numerical Expressions">🔗</a></div></section><section class="subsection" id="subsection-plan-for-problem-solving"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="space"> </span><span class="title"><em class="emphasis">Learn</em>: Plan for Problem Solving</span>
 </h3>
 <div class="para logical" id="subsection-plan-for-problem-solving-2">
