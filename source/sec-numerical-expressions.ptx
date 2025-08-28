@@ -277,10 +277,10 @@
             <p>
                 The <term>order of operations</term> gives the proper order to evaluate any numerical expression:
                 <ol>
-                    <li>First, evaluate inside parentheses (...) and other grouping symbols. For nested grouping symbols, begin with the <em>innermost</em> groupings and work outwards.</li>
-                    <li>Next, evaluate exponents (powers and roots or radicals).</li>
-                    <li>Then, perform multiplication and division from left to right.</li>
-                    <li>Finally, perform addition and subtraction from left to right.</li>
+                    <li>First, evaluate inside Parentheses (...) and other grouping symbols. For nested grouping symbols, begin with the <em>innermost</em> groupings and work outwards.</li>
+                    <li>Next, evaluate Exponents (powers and roots or radicals).</li>
+                    <li>Then, perform Multiplication and Division from left to right.</li>
+                    <li>Finally, perform Addition and Subtraction from left to right.</li>
                 </ol>
                 Note: Multiplication does not always come before Division, and Addition does not always come before Subtraction. They are performed from left to right as they appear in the expression.
                  </p>
@@ -359,11 +359,16 @@
         <p>Use the order of operations to evaluate the following numerical expressions:
             <md>
             <mrow>&amp; 5 \cdot 3 - 2 = \_\_\_</mrow>
+            <mrow>&amp; </mrow>
             <mrow>&amp; 10 + 7 \cdot 2 = \_\_\_</mrow>
+            <mrow>&amp; </mrow>
             <mrow>&amp; (8-3)^2 + 6 \div 3 = \_\_\_</mrow>
+            <mrow>&amp; </mrow>
             <mrow>&amp; 2 \cdot 3 + 4 \cdot 5 - 6 \div 2 = \_\_\_</mrow>
+            <mrow>&amp; </mrow>
             <mrow>&amp; 2 \cdot 3 + 4 \cdot (5 - 6) \div 2 = \_\_\_</mrow>
-            <mrow>&amp; \frac{2(4-1)^2}{\frac{1}{2}(5+1)^2}</mrow>
+            <mrow>&amp; </mrow>
+            <mrow>&amp; \frac{2(4-1)^2}{\frac{1}{2}(5+1)^2} = \_\_\_</mrow>
             </md> 
         </p>
         </statement>
@@ -371,10 +376,15 @@
         <p>
             <md>
             <mrow>&amp; 5 \cdot 3 - 2 = 13</mrow>
+            <mrow>&amp; </mrow>
             <mrow>&amp; 10 + 7 \cdot 2 = 24</mrow>
+            <mrow>&amp; </mrow>
             <mrow>&amp; (8-3)^2 + 6 \div 3 = 27 </mrow>
+            <mrow>&amp; </mrow>
             <mrow>&amp; 2 \cdot 3 + 4 \cdot 5 - 6 \div 2 = 23</mrow>
+            <mrow>&amp; </mrow>
             <mrow>&amp; 2 \cdot 3 + 4 \cdot (5 - 6) \div 2 = 4</mrow>
+            <mrow>&amp; </mrow>
              <mrow>&amp; \frac{2(4-1)^2}{\frac{1}{2}(5+1)^2} = 1</mrow>
             </md> 
         </p>
