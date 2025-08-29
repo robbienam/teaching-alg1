@@ -4,6 +4,7 @@
     <title>Expressions</title>
     
 <xi:include href="./sec-numerical-expressions.ptx"/>
+<xi:include href="./sec-line-segments.ptx"/>
 
 
 </chapter>

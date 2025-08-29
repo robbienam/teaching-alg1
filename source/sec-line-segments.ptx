@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-line-segments" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Line Segments</title>
+    <objectives>
+    
+    <ul>
+        <li>
+            <p>Learning Objectives</p>
+           <p><ul>
+            <li>
+                <p>
+                    Calculate measurements of line segments.        
+                </p>
+            </li>
+            <li>
+                <p>
+                    Apply the definition of congruent line segments to find missing values.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Apply to solve real-world measurement problems.
+                </p>
+            </li>
+        </ul></p>
+        </li>
+        <li>
+            <p>Language Objectives</p>
+            <p>
+            <ul>
+                <li>
+                    <p>
+                        Describe the relation of betweenness among three points on a line.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Describe the relation of congruence between two line segments.
+                    </p>
+                </li>
+                </ul>
+                </p>
+            </li>    
+    </ul>
+
+</objectives>
+
+<subsection xml:id="subsection-line-segments">
+    <title>Line Segments</title>
+<definition xml:id="def-line-segment">
+<statement>
+    <p>A <term>line segment</term> is a portion of a line consisting of two endpoints and all points on the line which lie between them.
+We label the line segment between points A and B as <m>\overline{AB}</m> or equivalently <m>\overline{BA}</m>, where A and B are the endpoints of the segment.
+    </p>
+</statement>
+</definition>
+
+<p>
+    The <term>measure</term> of a line segment is the distance between its two endpoints. We denote the measure or length of line segment <m>\overline{AB}</m> as <m>AB</m>.
+</p>
+
+<p>We now formally define the notion of <term>betweenness of points</term>.
+</p>
+</subsection>
+
+<subsection xml:id="subsection-betweenness-of-points">
+    <title>Betweenness of Points</title>
+<definition xml:id="def-betweenness-of-points">
+    <statement>
+        <p>
+            Given three collinear points A, B, and C, we say C is <term>between</term> A and B if AC + CB = AB.         
+        </p>
+    </statement>
+</definition>
+<p>Note, the notion of betweenness is defined only for three points which all lie on the same line. Betweenness is a property of points on a line.
+</p>
+
+<p>For such triples of points on a line, the sum of the measure of the partial segments equals the measure of the whole segment.
+    Therefore, we can use the concept of betweenness to find the lengths of line segments when given some of the lengths.
+</p>
+<p><url href="https://my.mheducation.com/secure?coursewareId=fa94854d-8f97-4513-9f1d-8db887c5d062&amp;assetId=8b7e265e-66f2-4bdd-9578-4266fe42b1f5">Example 1</url> Find Measurements by Adding
+</p>
+
+<p><url href="https://my.mheducation.com/secure?coursewareId=fa94854d-8f97-4513-9f1d-8db887c5d062&amp;assetId=ee01c4ff-bff6-4737-830e-edf65de2eaf7">Example 2</url> Find Measurements by Subtracting
+</p>
+
+<p><url href="https://my.mheducation.com/secure?coursewareId=fa94854d-8f97-4513-9f1d-8db887c5d062&amp;assetId=93ab8897-afe8-4b81-8115-636e0857a350">Example 3</url> Find Measurements by Writing and Solving Equations
+</p>
+
+<p><url href="https://my.mheducation.com/secure?coursewareId=fa94854d-8f97-4513-9f1d-8db887c5d062&amp;assetId=92d0dd2a-aabe-4346-9879-66b318873a2b">Example 4</url> Use Betweenness of Points (Space Needle height)
+</p>
+  
+</subsection>
+<subsection xml:id="subsection-line-segment-congruence">
+    <title>Line Segment Congruence</title>
+<definition xml:id="definition-congruence">
+    <statement>
+        <p>
+            Two geometric figures that have the same shape and size are said to be <term>congruent</term>.
+        </p>
+    </statement> 
+</definition>
+
+<p>Two line segments are <term>congruent segments</term> if they have the same measure or length.
+</p>
+
+<p>We denote that line segments <m>\overline{AB}</m> and <m>\overline{CD}</m> are congruent by writing <m>\overline{AB} \cong \overline{CD}</m>.
+    This implies that the lengths of the segments are equal, i.e., <m>AB = CD</m>.
+</p>
+<p>Note well the following distinction: Two line segments can be <em>congruent</em>. Two lengths can be <em>equal</em>.
+</p>
+<p><url href="https://my.mheducation.com/secure?coursewareId=fa94854d-8f97-4513-9f1d-8db887c5d062&amp;assetId=51cda81d-dd8d-4250-9883-e3c3261ea8ba">Example 5</url> Write and Solve Equations by Using Congruence
+</p> 
+
+</subsection>
+
+</section>
